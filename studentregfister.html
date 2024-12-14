@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration form...</title>
+    <style>
+       
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Student Registration Form</h2>
+        <form action="">
+            <!-- FIRST NAME -->
+            <div class="control-group">
+                <label for="fname">Firstname:</label>
+                <input type="text" name="fname" id="fname" placeholder="firstName"onkeyup="onFirstNameKeyUp(event)">
+                <span id="fnameError"></span>
+            
+            </div>
+            <!-- LAST NAME -->
+            <div class="control-group">
+                <label for="lname">Lastname:</label>
+                <input type="text" name="lname" id="lname" placeholder="LastName">
+            </div>
+            <!-- EMAIL -->
+            <div class="control-group">
+                <label for="email">email:</label>
+                <input type="text" name="email" id="email" placeholder="email">
+            </div>
+            <!-- PHONE -->
+            <div class="control-group">
+                <label for="phone">phone:</label>
+                <input type="text" name="phone" id="phone" placeholder="phone">
+            </div>
+            <!-- DATE OF BIRTH -->
+            <div class="control-group">
+                <label for="dob">Date Of Birth:</label>
+                <input type="date" name="Dob" id="dob" >
+            </div>
+            <!-- GENDER -->
+
+            <div class="control-group">
+                <label for="gender">Gender:</label>
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender" value="Male">
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" id="gender" value="Female">
+            </div>
+            <!-- SELECT STATE -->
+            <div class="control-group">
+                <label for="states">state:</label>
+                <select name="states" id="states">
+                    <option value=""selected="selected">please select a state</option>
+                </select>
+            </div>
+            <!-- SELECT CITY -->
+
+            <div class="control-group">
+                <label for="city">city:</label>
+                <select name="city" id="city">
+                    <option value=""selected="selected">please select a city</option>
+                </select>
+            </div>
+
+
+
+            <input type="submit"value="Register">
+            
+           
+        </form>
+
+    </div>
+</body>
+<script>
+  
+</script>
+<script src="reg.js"></script>
+</html>
